@@ -39,14 +39,14 @@ N/A
 #################################################### EDIT THESE SETTINGS ####################################################
 
 #Custom variables
-$certurl = "https://github.com/andrew-s-taylor/public/raw/main/Powershell%20Scripts/Signature-Script/template.docx"
-$templateurl = "https://github.com/andrew-s-taylor/public/raw/main/Powershell%20Scripts/Signature-Script/template.docx"
-$SignatureName = 'template' #insert the company name (no spaces) - could be signature name if more than one sig needed
+$certurl = "https://github.com/bcshop/public/raw/main/Powershell%20Scripts/Signature-Script/template.docx"
+$templateurl = "https://github.com/bcshop/public/raw/main/Powershell%20Scripts/Signature-Script/CobaltSignature.docx"
+$SignatureName = 'Cobalt' #insert the company name (no spaces) - could be signature name if more than one sig needed
 $SignatureVersion = "1" #Change this if you have updated the signature. If you do not change it, the script will quit after checking for the version already on the machine
 $ForceSignature = '1' #Set to 1 if you don't want the users to be able to change signature in Outlook
 $Address = ""
 $Tel = ""
-$tenantid = "46cd9aae-0d0e-45e1-83b5-154b8efeb92f"
+$tenantid = "f33a8405-19c8-4835-9206-a8fe85c1cde5"
 
 
 #################################################### DO NOT EDIT BELOW THIS LINE ####################################################
