@@ -1,5 +1,5 @@
 #What is your Tenant URL
-$turl = "https://myurl.com"
+$turl = "https://cobaltps.onmicrosoft.com/pshellsignature"
 
 # Login to Azure AD PowerShell With Admin Account
 Connect-AzureAD 
@@ -8,7 +8,7 @@ Connect-AzureAD
 $currentDate = Get-Date
 $endDate = $currentDate.AddYears(1)
 $notAfter = $endDate.AddYears(1)
-$pwd = "Password12345@"
+$pwd = "fKMk@+$@E4d,v6R{4r"
 $thumb = (New-SelfSignedCertificate -CertStoreLocation cert:\localmachine\my -DnsName com.foo.bar -KeyExportPolicy Exportable -Provider "Microsoft Enhanced RSA and AES Cryptographic Provider" -NotAfter $notAfter).Thumbprint
 $pwd = ConvertTo-SecureString -String $pwd -Force -AsPlainText
 Export-PfxCertificate -cert "cert:\localmachine\my\$thumb" -FilePath c:\temp\examplecert.pfx -Password $pwd
